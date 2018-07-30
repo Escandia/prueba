@@ -1,0 +1,40 @@
+.parallax {
+  position: relative;
+  background-image: url("../../../assets/img/parallax1.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .parallax__title{
+    padding: 5rem 3rem;
+    h2{
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    p{
+      font-size: 1rem;
+      font-family: 'Crimson', serif;
+    }
+  }
+
+  @media (max-width: 735px) {
+    .parallax__title{
+      h2{
+        font-size: 3rem;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .parallax__title{
+      h2{
+        font-size: 2rem;
+      }
+    }
+  }
+
+}
+
+

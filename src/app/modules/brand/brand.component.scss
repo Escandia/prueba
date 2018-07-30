@@ -1,0 +1,14 @@
+h2{
+  font-family: 'Crimson Text', serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+img{
+  height: auto;
+  width: 100%;
+  &:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+}
+
